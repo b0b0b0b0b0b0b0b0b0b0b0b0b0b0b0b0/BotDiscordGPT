@@ -1,0 +1,12 @@
+{
+  "prefix": "$",
+  "token"  : "Токен бота",
+  "status" : "Minecraft",
+  "openaiApiKey": "Токен API GPT",
+  "openaiApiKeys": [
+    "Токен API GPT 1",
+    "Токен API GPT 2",
+    "Токен API GPT 3"
+  ],
+  "channelId": "ID канала"
+}
