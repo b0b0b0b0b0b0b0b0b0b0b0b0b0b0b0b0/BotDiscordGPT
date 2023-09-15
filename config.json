@@ -1,7 +1,7 @@
 {
   "prefix": "$",
   "token"  : "Токен бота",
-  "status" : "Minecraft",
+  "status" : "GPT",
   "openaiApiKey": "Токен API GPT",
   "openaiApiKeys": [
     "Токен API GPT 1",
