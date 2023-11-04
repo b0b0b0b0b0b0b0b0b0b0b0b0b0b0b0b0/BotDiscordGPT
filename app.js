@@ -23,9 +23,6 @@ client.once('ready', () => {
 
 
 client.on('messageCreate', async (message) => {
-    if (message.channel.id !== config.channelId) {
-        hastebin.handleAttachment(message);
-    }
 
     if (message.author.bot) return;
 
