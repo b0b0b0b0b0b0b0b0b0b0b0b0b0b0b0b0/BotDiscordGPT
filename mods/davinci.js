@@ -25,6 +25,11 @@ async function generateResponse(messageContent) {
             const consoleMessage = `Ошибка 429: Превышен лимит скорости. Дата: ${new Date().toISOString()}`;
             console.log(consoleMessage);
             return errorMessage;
+        } else if (error.response && error.response.status === 502) {
+            const errorMessage = 'Сервер GPT вернул ошибку 502. Он перегружен! Попробуйте написать свой вопрос позже';
+            const consoleMessage = `Ошибка 502: Превышен лимит скорости. Дата: ${new Date().toISOString()}`;
+            console.log(consoleMessage);
+            return errorMessage;
         } else {
             const errorMessage = `Произошла ошибка при генерации ответа. Пожалуйста, попробуйте ещё раз или обратитесь к администратору.`;
             console.error(`${new Date().toISOString()} Не удалось сгенерировать ответ на :`, error);
