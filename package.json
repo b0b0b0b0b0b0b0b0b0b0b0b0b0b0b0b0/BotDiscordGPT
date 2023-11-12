@@ -1,19 +1,12 @@
 {
   "dependencies": {
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.12",
-    "cross-fetch": "^4.0.0",
     "discord.js": "^14.6.0",
-    "node-fetch": "^3.3.1",
-    "openai": "^3.2.1"
+    "openai": "^4.17.4"
   },
   "name": "bots",
-  "description": "This folder continues a companion bot written in Node.js. It is completely optional but provides additional functionality for the core add-on.",
+  "description": "",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "test": "!help"
-  },
-  "author": "",
   "license": "ISC"
 }
